@@ -5,12 +5,12 @@
 
 @font-face {
     font-family: 'MiSans-Bold';
-     src: url('//s1.onemei.renasset/font/misans/woff2/MiSans-Bold.woff2') format('woff2');
+     src: url('//s1.onemei.ren/asset/font/misans/woff2/MiSans-Bold.woff2') format('woff2');
     }
 
 @font-face {
     font-family: 'MiSans-Heavy';
-     src: url('//s1.onemei.renasset/font/misans/woff2/MiSans-Heavy.woff2') format('woff2');
+     src: url('//s1.onemei.ren/asset/font/misans/woff2/MiSans-Heavy.woff2') format('woff2');
     }
 
 body{
