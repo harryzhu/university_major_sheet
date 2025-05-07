@@ -1,10 +1,16 @@
 $bg_light: #f2f2f2;
 $border_orange: #ff6701;
 
+@media print{
+	.no-print{
+		display: none!important;
+	}
+}
+
 body{
 	padding: 10px 10px 60px 10px;
 	margin: 0;
-	font-family: "PingFangSC-Regular", "Microsoft YaHei";
+	font-family: "MiSans","PingFangSC-Regular", "Microsoft YaHei";
 }
 
 .statistics{
@@ -32,6 +38,7 @@ table, tr, td{
 		margin: 0;
 		border: none;
 		cellspacing:20px;
+		border: none;
 	}
 }
 
@@ -95,6 +102,8 @@ h2{
 	text-align: center;
 	font-size: 22px;
 	color: #2655ff;
+	margin: 0;
+	padding: 5px 5px 10px 5px;
 }
 
 h3{
