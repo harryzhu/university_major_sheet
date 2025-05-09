@@ -1,0 +1,234 @@
+$bg_light: #f2f2f2;
+$border_orange: #ff6701;
+
+@media print{
+	.no-print{
+		display: none!important;
+	}
+}
+
+body{
+	padding: 10px 10px 60px 10px;
+	margin: 0;
+	font-family: "MiSans","PingFangSC-Regular", "Microsoft YaHei";
+}
+
+.statistics{
+	background-color: $bg_light;
+	border: 1px solid #ccc;
+	padding: 5px;
+	border-radius: 5px;
+	width: 960px;
+	color: #ababac;
+
+	a{
+		text-decoration: none;
+	}
+}
+
+table, tr, td{
+	vertical-align: top!important;
+	text-align: left;
+}
+
+.tbl_1{
+	width: 10000px;
+	td{
+		padding: 10px;
+		margin: 0;
+		border: none;
+		cellspacing:20px;
+		border: none;
+	}
+}
+
+
+.tbl_2{
+	padding: 0;
+	margin: 0;
+	border: 5px solid $border_orange;
+	background-color: $bg_light;
+	border-radius: 0 0  10px 10px;
+	border-collapse: collapse;
+
+	td{
+		border-radius: 0;
+		border-right: 5px solid $border_orange;
+	}
+}
+
+
+.tbl_3{
+	width: 220px;
+	margin: 0;
+	padding: 0;
+	font-size: 15px;
+
+	td{
+		border: 1px solid green;
+		border-radius: 5px;
+	}
+}
+
+
+hr.sep-light{
+	margin: 0;
+	padding: 0;
+}
+
+.text-highlight{
+	color: red;
+	font-weight: 400;
+}
+
+p.school-list,
+p.school-list-cat{
+	margin: 0;
+	padding: 0;
+	text-align: right;
+	color: #ababac;
+}
+
+.school-list-title{
+	color: #2655ff;
+}
+
+h1{
+	background-color: $border_orange;
+	text-align: center;
+	font-size: 32px;
+	color: #fff;
+	margin: 0;
+	padding: 10px;
+	border-radius: 10px 10px 0 0;
+}
+
+h2{
+	text-align: center;
+	font-size: 22px;
+	color: #2655ff;
+	margin: 0;
+	padding: 5px 5px 10px 5px;
+}
+
+h3{
+	text-align: center;
+	font-size: 32px;
+	color: #333;
+}
+
+.tbl_school_majors{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	border-collapse: collapse;
+	background-color: #f9f9f9;
+	border: 5px solid $border_orange;
+
+	td{
+		min-width: 120px;
+		border: 1px solid $border_orange;
+		margin: 0;
+		padding: 5px;
+	}
+
+	ul{
+		margin: 0;
+		padding: 0;
+	}
+
+	li.rank-major-name{
+		border: 1px solid #ff6701;
+		background-color: #eee;
+		margin: 3px 5px;
+		list-style: none;
+		display: inline-block;
+		padding: 5px;
+		color: #333;
+		font-size: 15px;
+		font-weight: 400;
+		border-radius: 5px;
+	}
+
+}
+
+.school_majors_school{
+	font-size: 18px;
+	font-weight: 700;
+	color: #ff6701;
+	vertical-align: middle;
+	text-align: center;
+
+}
+
+table.extra-info{
+	img{
+		height: auto;
+	}
+}
+
+/********/
+
+.tbl_ranks{
+	width: 100%;
+	margin: 0;
+	padding: 0px;
+	border-collapse: collapse;
+
+	td{
+		border: 5px solid $border_orange;
+		margin: 0;
+		padding: 0px;
+	}
+}
+
+.rank-box1{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.rank-level{
+	background-color: $border_orange;
+	font-size: 32px;
+	padding: 10px;
+	color: #fff;
+	text-align: center;
+	font-weight: 700;
+}
+
+.rank-school-name{
+	list-style: none;
+	color: blue;
+	margin: 5px;
+	padding: 5px;
+	display: inline-block;
+	border: 1px solid $border_orange;
+	border-radius: 5px;
+	background-color: #eee;
+	font-weight: 400;
+}
+
+.rank-box2{
+	list-style: none;
+	display: inline-block;
+	border: 0px solid black;
+	margin: 0;
+	margin-left: 10px;
+	padding: 0;
+}
+
+.rank-major-name{
+	list-style: none;
+	display: inline-block;
+	padding: 3px 10px 3px 0;
+	color: #333;
+	border: 0px solid blue;
+	font-weight: 400;
+}
+
+.rank-major{
+	list-style: none;
+	display: inline-block;
+	border: 0px solid green;
+}
