@@ -76,6 +76,11 @@ hr.sep-light{
 	padding: 0;
 }
 
+.text-highlight{
+	color: red;
+	font-weight: 400;
+}
+
 p.school-list,
 p.school-list-cat{
 	margin: 0;
@@ -154,6 +159,12 @@ h3{
 	vertical-align: middle;
 	text-align: center;
 
+}
+
+table.extra-info{
+	img{
+		height: auto;
+	}
 }
 
 /********/
